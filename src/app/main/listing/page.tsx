@@ -37,7 +37,7 @@ export default function Listing() {
                   textColor="blue.500"
                   textDecoration="underline"
                 >
-                  <Link href={""}>Zara-Croft</Link>
+                  <Link href={"/dashboard/zara-croft"}>Zara-Croft</Link>
                 </LinkBox>
               </Td>
               <Td>
