@@ -1,3 +1,6 @@
+import { redirect } from "next/navigation";
+
 export default function Index() {
-  return <h1>Hello Index</h1>;
+  redirect("/main/generate");
+  return null;
 }
