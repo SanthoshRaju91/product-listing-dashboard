@@ -21,7 +21,7 @@ interface IJobForm {
 
 export function JobForm({ onSubmit, isSubmitting = false }: IJobForm) {
   return (
-    <Card shadow="none" borderWidth="1px" borderColor="gray.100" p={6}>
+    <Card shadow="none" borderWidth="1px" borderColor="gray.100" p={4}>
       <CardBody>
         <Flex direction="column" gap={8}>
           <Text fontWeight="semibold" textColor="gray.600">

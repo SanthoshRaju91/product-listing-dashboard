@@ -49,7 +49,7 @@ export default function Layout({ children }: ILayout) {
             direction="row"
             justifyContent="space-between"
             alignItems="center"
-            py={4}
+            py={2}
           >
             <Flex direction="column" gap="2">
               <Heading
@@ -80,7 +80,7 @@ export default function Layout({ children }: ILayout) {
           </Tabs>
         </AppContainer>
       </Box>
-      <Box className="content-section" my={12}>
+      <Box className="content-section" my={6}>
         {children}
       </Box>
     </Flex>
