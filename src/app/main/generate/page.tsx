@@ -1,14 +1,15 @@
 "use client";
 
 import { Box } from "@chakra-ui/react";
+import { useState } from "react";
+
 import { JobForm } from "../../components/job-form/job-form";
 
-interface IGenerate {
-  onSubmit(jobName: string, itemPageUrl: string): void;
-  isSubmitting?: boolean;
-}
+export default function Generate() {
+  const [isSubmitting, setIsSubmitting] = useState(false);
 
-export default function Generate({ onSubmit, isSubmitting }: IGenerate) {
+  const onSubmit = (jobName: string, itemPageUrl: string) => {};
+
   return (
     <Box w="60%" mx="auto">
       <JobForm onSubmit={onSubmit} isSubmitting={isSubmitting} />
